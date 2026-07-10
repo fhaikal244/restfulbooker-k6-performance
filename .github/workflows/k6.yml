@@ -21,6 +21,9 @@ jobs:
         sudo apt-get update
         sudo apt-get install k6
 
+    - name: Create reports folder
+      run: mkdir -p reports
+
     - name: Run Smoke Test
       run: k6 run tests/smoke-test.js
 
