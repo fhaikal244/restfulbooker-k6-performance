@@ -1,0 +1,6 @@
+@echo off
+echo Running Smoke Test...
+k6 run tests/smoke-test.js
+echo Opening Report...
+start reports/smoke-report.html
+pause

@@ -1,0 +1,6 @@
+@echo off
+echo Running Stress Test...
+k6 run tests/stress-test.js
+echo Opening Report...
+start reports/stress-report.html
+pause

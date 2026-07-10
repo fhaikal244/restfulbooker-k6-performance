@@ -1,0 +1,6 @@
+@echo off
+echo Running Spike Test...
+k6 run tests/spike-test.js
+echo Opening Report...
+start reports/spike-report.html
+pause

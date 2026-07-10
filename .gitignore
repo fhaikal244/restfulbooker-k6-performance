@@ -1,0 +1,9 @@
+reports/
+summary.json
+k6-summary.json
+node_modules/
+package-lock.json
+package.json
+.DS_Store
+Thumbs.db
+.vscode/

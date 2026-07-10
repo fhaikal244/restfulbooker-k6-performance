@@ -1,0 +1,6 @@
+@echo off
+echo Running Load Test...
+k6 run tests/load-test.js
+echo Opening Report...
+start reports/load-report.html
+pause
